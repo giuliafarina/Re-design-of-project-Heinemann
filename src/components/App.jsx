@@ -1,9 +1,10 @@
 
 import React from "react";
 import Logo from "./Logo";
+import Gallery from "./Gallery";
 function App() {
     return <div>
-        <Logo />
+        <Logo />, <Gallery />
     </div>
 }
 
