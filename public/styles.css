@@ -3,24 +3,33 @@
 }
 
 body {
-  background-color: #f5eadc;
-  background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-color: #f8f5f1;
+
+background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  
 }
 
+.grid_container{
+  padding: 5% 10%;
+}
 
 img {
    max-width: 100%;
+   
   /* Thanks Lord! */
 }  
 
-
+img:hover {
+  background-color: chocolate;
+  opacity: 0.3;
+}
 
 
 .logo{
-  max-width: 100%;
+width: 89%;
   text-align: center;
-  padding-left: 20%;
+  padding-left: 15%;
   margin: auto;
 }
 
@@ -28,6 +37,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+  margin-top: 10%;
 }
 
 /* Create four equal columns that sits next to each other */
