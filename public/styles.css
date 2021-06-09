@@ -20,6 +20,14 @@ img {
   /* Thanks Lord! */
 }  
 
+/* NavBar */
+.paper{
+  border-color: black;
+}
+.tabs{
+  color: #393e46;
+}
+
 .column>img:hover {
   background-color: chocolate;
   opacity: 0.3;
