@@ -20,7 +20,7 @@ img {
   /* Thanks Lord! */
 }  
 
-img:hover {
+.column>img:hover {
   background-color: chocolate;
   opacity: 0.3;
 }

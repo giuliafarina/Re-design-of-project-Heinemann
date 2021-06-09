@@ -1,12 +1,13 @@
 import React from "react";
-
+import Paper from "./Paper";
 import Logo from "./Logo";
+
 import ImageGrid from "./ImageGrid";
 
 
 function App() {
     return <div className="App">
-        <Logo /> <ImageGrid />
+        <Logo /><Paper />  <ImageGrid />
     </div>
 }
 
