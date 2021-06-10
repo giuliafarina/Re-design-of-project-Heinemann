@@ -77,3 +77,11 @@ width: 89%;
     max-width: 100%;
   }
 }
+
+/* About */
+
+p{
+  margin: 7% 10%;
+  text-align: justify;
+
+}
